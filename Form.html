@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            color: green;
+            font: normal 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+	  <p>
+         <ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline; background-color:pink; margin-right: 5px"><a href="./home.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 10px;">HOME</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./about.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./contact.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./Service.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./form.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./table.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./Mybook.html"
+            style="padding: 10px;color: white;background-color: greenyellow;text-decoration: none;margin-right: 15px;">MYBOOK</a></li></ul>
+    </p>
+    <h1 style="color:royalblue;"><i><marquee>WELCOME TO TAILOR MANAGEMENT SYSTEM</marquee></h1></i>
+    <hr>
+    <center><i><h1 style="color: blue;"><u>CUSTOMRER FORM</u></i></h1>
+    
+        <form action="#" method="POST">
+            <label for="id">Customer_id </label>
+            <input type="number" name="id" id="id" required><br><br>
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required><br><br>
+
+            <label for="date">Date_Of_Birth </label>
+            <input type="date" name="date" id="date" required><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required><br><br>
+
+             <label for="age">fabric choice</label>
+            <input type="text" name="fabric choice" id="fabric choise" required><br><br>
+
+
+               <label for="pro">PAYMENT METHOD </label>
+            <select name="pay" id="pay">
+                <option >MTN MOBILE MONEY</option>
+                <option > AIRTEL MONEY</option>
+                <option > BANK OF KIGALI</option>
+                <option >WESTERN UNION</option>
+                <option >ECO BANK</option>
+            </select><br><br>
+
+            <label for="count">Costomer location</label>
+            <select name="count" id="count">
+                <option >Rwanda</option>
+                <option >Burundi</option>
+                <option >Kenya</option>
+                <option >DRC</option>
+                <option >Tanzania</option>
+                <option >Kenya</option>
+            </select><br><br>
+
+            <label for="pro">Province </label>
+            <select name="pro" id="pro">
+                <option >Southertn</option>
+                <option >Northern</option>
+                <option >Eastern</option>
+                <option >Western</option>
+                <option >Kigali City</option>
+            </select><br><br>
+
+            
+
+            <label for="contact">Contact_Information </label>
+            <input type="text" name="contact" id="contact" required><br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+            <input type="submit" name="sbt" value="SUBMIT">
+            <input type="reset" name="cnl" value="CANCEL"><br><br>
+        </form>
+    </center>
+</body>
+</html>
